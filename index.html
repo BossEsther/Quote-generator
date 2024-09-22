@@ -13,17 +13,21 @@
 </head>
 <body>
     <div class="container">
+        <button class="change-theme" id="change-theme" >Change Theme</button>
         <header>
-            <h1> AI Quote Generator</h1>
+            <h1>Quote Generator</h1>
         </header>
         <main>
-            <form id="generate-quote">
-                <input type="text" class="search-input" id="search-input" placeholder="Enter the topic of the quote...."
-                required autofocus autocomplete="off" />
+            <div class="form-container">
+                <form id="generate-quote">
+                    <input type="text" class="search-input" id="search-input" placeholder="Enter the topic of a quote...."
+                    required autofocus autocomplete="off" />
 
-                <input type="submit" class="quote-button" value="Generate">
-            </form>
-            <div class="quotes" id="quotes">
+                    <input type="submit" class="quote-button" value="Generate">
+                </form>
+                <div class="hints">i.e: life,books,flowers,emojis,etc...</div>
+            </div>
+            <div class="quotes hidden" id="quotes">
             </div>
         </main>
 

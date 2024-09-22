@@ -130,6 +130,9 @@ footer{
   .dark a{
     color: rgb(241, 185, 241);
   }
+  .dark .quotes{
+    color: black;
+  }
   .dark .container{
     background-color:rgba(69,52,160,0.9287289915966386);
   }

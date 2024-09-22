@@ -39,7 +39,7 @@ form{
 }
 footer{
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     opacity: 0.9;
 }
 .container{
@@ -109,13 +109,14 @@ footer{
     background-color: black;
     color: white;
     border-radius: 10px;
+    border: none;
   }
   .change-theme:hover{
     cursor: pointer;
     background-color: white;
     color: black;
     border: 1px solid black;
-    transition: all 150ms ease-in;
+    transition: all 150ms ease-in-out;
   }
   .dark{
     background: rgb(58,25,236);

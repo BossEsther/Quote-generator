@@ -68,3 +68,6 @@ footer{
     line-height: 1.5;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
+.quotes strong{
+    color:rgb(69, 52, 160);
+}
